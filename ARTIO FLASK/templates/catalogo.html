@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block conteudo %}
+<ul>
+    {% for item, value in edicoes %}
+      <li>
+        <a href= {{value}}> Edição Nº:{{item}} </a>
+      </li>
+     {% endfor %}
+  </ul>
+
+{% endblock %}
+

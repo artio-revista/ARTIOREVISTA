@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ARTIO| REVISTA DIGITAL</title>
+  <link href="/static/base.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <section class="top-nav-bar-links">
+    <div class="logo-artio-nav">
+      
+    </div>
+    <div class="top-nav-bar">
+      <ul class="top-nav-bar-lista">
+        <li><img  src="/static/assets/ARTIO-LOGO.png"></li>
+        <li><a href="https://artio-or-flask.wendelkaue.repl.co/">HOME</a></li>
+        <li><a href="https://artio-or-flask.wendelkaue.repl.co/sobre-nos">SOBRE NÓS</a></li>
+        <li><a href="https://artio-or-flask.wendelkaue.repl.co/catalogo" class="CATALOGO-TITLE">CATALÓGO</a></li>
+        <li><a href="https://www.instagram.com/art.io.revista/"><img src="/static/assets/INSTA-LOGO.png"></a></li>
+        <li><a href="https://artio-or-flask.wendelkaue.repl.co/login"><img src="/static/assets/LOGIN.png"></img></a></li>
+      </ul>
+    </div>
+  </section>
+  <section class="divisor">
+    <div></div>
+  </section>
+
+  {% block conteudo %}
+  {% endblock %}
+  
+  <footer>
+    <div class="footer">
+      <img class="logo-img" src="/static/assets/FOOTER-DESC.png">
+    </div>
+  </footer>
+</body>
+
+</html>

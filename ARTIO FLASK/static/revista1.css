@@ -1,0 +1,43 @@
+
+.title-content{
+  font-family: Raleway, 'serif-sans';
+  background-color: #F3F3F3;
+  padding: 50px;
+  text-align: center
+}
+
+.title-content h1{
+  margin: 0;
+}
+
+.title-content p{
+ margin: 0;
+margin-top: 15px;
+}
+
+.leitor-revista{
+  display: flex;
+  justify-content: center;
+  background-color: #F3F3F3;
+}
+
+.leitor-revista ul{
+  list-style-type: none;
+  padding: 0px;
+}
+
+.leitor-revista li{
+  margin-bottom: 10px;
+}
+
+.leitor-revista img{
+  height: auto;
+  width: auto;
+}
+
+.leitor-revista div{
+  padding-left: 35px;
+  padding-right: 35px;
+  background-color: #e6e6e6;
+  backdrop-filter: blur(10px);
+}
